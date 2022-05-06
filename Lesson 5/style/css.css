@@ -1,0 +1,242 @@
+body{
+    background-color: red;
+}
+
+.container{
+    background-image: url("../img/bgtop.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    min-width: 800px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header{
+    min-width: 800px;
+    max-width: 1110px;
+    margin: auto;
+    height: 80px;
+}
+
+.burger{
+    float: right;
+    display: flex;
+    justify-content: center;
+    margin-top: -1px;
+    width: 50px;
+    height: 50px;
+    background-color: #F7654A;
+}
+
+.burgMainBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 11px;
+    width: 21px;
+    height: 28px;
+
+
+
+}
+
+.burgBlock{
+    margin-top: 3px;
+    width: 21px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 15%;
+}
+
+.logo{
+    padding-top: 6px;
+}
+
+.top{
+    position: relative;
+    margin: 112px auto 0;
+    text-align: center;
+
+    max-width: 734px;
+    max-height: 171px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.top2{
+    position: relative;
+    margin: 35px auto 0;
+    text-align: center;
+
+    width: 734px;
+    height: 22px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.rectangle1{
+
+    max-width: 1110px;
+    height: 300px;
+    background: #F7F7F7;
+    margin: 170px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rectInner{
+    position: relative;
+    width: 190px;
+    height: 186px;
+
+}
+
+.spanFather{
+    position: relative;
+    text-align: center;
+}
+
+.span0{
+    position: relative;
+    width: 190px;
+    height: 86px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+}
+
+.span1{
+    position: relative;
+    width: 190px;
+    height: 43px;
+    margin-top:1px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000;
+}
+
+.span2{
+    position: relative;
+    width: 190px;
+    height: 22px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999;
+}
+
+.rectangle2{
+    max-width: 1110px;
+    height: 681px;
+    margin: 100px auto 0;
+}
+
+.mainText{
+
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
+
+.rectangle2Main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.rectInner2{
+    width: 350px;
+    height: 578px;
+
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+.rectMini{
+    width: 55px;
+    height: 6px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    background-color: #F7654A;
+}
+
+.span3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999;
+}
+
+
+.footer{
+    max-width: 100%;
+    height: 181px;
+    margin-top: 150px;
+    background: #F7654A;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.span4{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.myButton{
+    width: 175px;
+    height: 49px;
+    background-color: #fff;
+    margin-top: 73px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+
+
+}
+.message{
+    margin-left: 30px;
+    margin-top:14px;
+    padding-right: 15px;
+}
+.burger:hover,div.logo>a>img:hover,
+div.rectInner2>img:hover,a.myButton:hover{
+    cursor: progress;
+}
+

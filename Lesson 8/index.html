@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 8 remake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="headerBody">
+            <div class="headerLogo">
+                <a href="#">
+                    <img class="logo" src="img/logo1.svg" alt="logo">
+                </a>
+                <input type="text" name="headerForm" id="location" placeholder="Вкажіть Ваше місто...">
+                <label for="location"></label>
+            </div>
+            <div class="headerBtn">
+                <a href="#" class="enter">Увійти</a>
+                <a href="#" class="basket">Кошик</a>
+            </div>
+        </div>
+    </div>
+
+</header>
+    <main>
+        <section class="section__banner">
+            <div class="container">
+                <div class="banner__body">
+                    <div class="banner__text">
+                        <h1>Сервіс доставки продуктів додому</h1>
+                        <h3>Улюблені страви із улюбленого ресторану до Вашого дому</h3>
+                    </div>
+                    <div class="banner__img">
+                        <img src="./img/pizzaHeader.png" alt="banner__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__grid__restaurants">
+            <div class="container">
+                <div class="restaurants__body">
+                    <div class="restaurants__input">
+                        <h2>Ресторани</h2>
+                        <div>
+                            <input type="text" name="restaurantsAndFood" id="restaurantsAndFood"
+                                   placeholder="Пошук страв та ресторанів...">
+                            <label for="restaurantsAndFood"> </label>
+                        </div>
+                    </div>
+                    <div class="grid__restaurants">
+                        <a class="with__label" href="#">
+                            <div class="label__popular">ПОПУЛЯРНЕ</div>
+                            <div class="name__shop">
+                                <h4>Макдональдз</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="with__label" href="#">
+                            <div class="delivery__for__free">БЕЗКОШТОВНА ДОСТАВКА</div>
+                            <div class="name__shop">
+                                <h4>Mafia</h4>
+                                <div class="icons">
+                                    <div class="time">20 - 35 хв.</div>
+                                    <div class="delivery"> 75 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="with__label" href="#">
+                            <div class="as__a__gift">КРИЛЬЦЯ В ПОДАРУНОК</div>
+                            <div class="name__shop">
+                                <h4>KFC</h4>
+                                <div class="icons">
+                                    <div class="time">20 - 35 хв.</div>
+                                    <div class="delivery"> 50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="with__label" href="#">
+                            <div class="delivery__for__free">БЕЗКОШТОВНА <br> ДОСТАВКА</div>
+                            <div class="name__shop">
+                                <h4>Pizza House</h4>
+                                <div class="icons">
+                                    <div class="time">20 - 35 хв.</div>
+                                    <div class="delivery"> 1 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Rukola</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Lviv Croissans</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        75 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Mamamia!</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Хлебный</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Time Cafe</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        100 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Salateira</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Green 13</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>VAPIANO</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Папа Джон</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="section__grid__shops">
+            <div class="container">
+                <div class="shops__body">
+                    <h2>Магазини</h2>
+                    <div class="grid__shops">
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Fora</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>ATB</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        40 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                            <div class="name__shop">
+                                <h4>Silpo</h4>
+                                <div class="icons">
+                                    <div class="time">
+                                        <img src="img/hourglass.svg" alt="hourglass">
+                                        20 - 35 хв.
+                                    </div>
+                                    <div class="delivery">
+                                        <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                        50 грн.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="without__label" href="#">
+                        <div class="name__shop">
+                            <h4>Eva</h4>
+                            <div class="icons">
+                                <div class="time">
+                                    <img src="img/hourglass.svg" alt="hourglass">
+                                    30 - 35 хв.
+                                </div>
+                                <div class="delivery">
+                                    <img src="img/deliveryBike.svg" alt="delivery__bike">
+                                    1 грн.</div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="bodyFooter">
+                <div class="footerLeft">
+                    <a href="#" class="aboutUs">Про нас</a>
+                    <a href="#" class="contacts">Контакти</a>
+                    <a href="#">Партнери</a>
+                </div>
+                <div class="footerRight">
+                    <a href="#"> <img src="./img/telegram.png" alt="tg"></a>
+                    <a href="#"><img src="./img/facebook.png" alt="fb"></a>
+                    <a href="#"><img src="./img/instagram.png" alt="inst"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

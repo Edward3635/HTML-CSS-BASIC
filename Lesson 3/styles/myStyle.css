@@ -1,0 +1,155 @@
+body {
+    background-image: url("../img/wall.png");
+    background-repeat: no-repeat;
+    background-color: #131313;
+    background-position: 338px 45px;
+    margin: 0;
+}
+hr{
+    margin: 0;
+}
+nav>ul{
+    margin-right: 20%;
+    float: right;
+    margin-top: 0;
+}
+
+nav>ul>li{
+    margin-top: 1rem;
+}
+.logo{
+    margin-left: 20%;
+    float: left;
+    margin-top: .5rem;
+}
+
+header{
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+
+header>nav>ul>li{
+    display: inline-block;
+}
+
+.nav{
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+
+}
+ul > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.darkBtn{
+    color:#272727;
+}
+
+.cardNumb{
+    margin-right: 168px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    border-left: 2px solid #272727;
+
+}
+
+hr{
+    height: 1px;
+    background-color: #272727;
+    border: none;
+}
+
+.posWall{
+    position: absolute;
+    width: 1157px;
+    height: 746px;
+    left: 376px;
+    top: 14px;
+    zoom: 83.41%;
+}
+
+caption{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    width: 442px;
+    height: 61px;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+table{
+    margin-left: 387px;
+    margin-top: 90px;
+    width: 1146px;
+    height: 530px;
+    border-collapse: collapse;
+}
+
+thead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color:#727272;
+}
+
+tbody{
+    background-color: #131313;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+td{
+    padding-left: 20px;
+    font-size: 13px;
+
+}
+
+tbody > tr > td{
+    border:2px solid #272727;
+    border-right:hidden;
+}
+
+tbody>tr>td:last-child{
+    border-right: 1px solid #272727;
+
+}
+
+.bottomNav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+
+}
+.botNav{
+    position: absolute;
+    width:557px;
+    height: 35px;
+    margin-left: 820px;
+    margin-top: 26px;
+}
+.myLi{
+    margin-right: 30px;
+}
+ul.bottomNav>li:first-child{
+    margin-right: 30px;
+}
+
+

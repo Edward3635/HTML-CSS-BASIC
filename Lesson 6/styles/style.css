@@ -1,0 +1,131 @@
+body{
+    background-color: #E5E5E5;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-position: 1191px 659px;
+}
+header>a{
+    margin-top: 11px;
+    margin-left: 316px;
+}
+.ulHeader{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 432px;
+    height: 19px;
+    margin-left: 90px;
+    margin-top: 31px;
+}
+li>a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #354657;
+}
+header{
+    display: flex;
+    height: 118px;
+    background-color: #F8F4FC;
+}
+.topLeftMenu{
+    margin-top: 29px;
+    margin-left: 365px;
+
+}
+.topLeftMenuItem{
+    padding-left: 34px;
+}
+main{
+    width: 740px;
+    margin-top: 70px;
+    margin-left: 526px;
+}
+.mainTitle{
+    font-family:"Raleway",sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #354657;
+    text-align: center;
+}
+.mainImg{
+    padding-top: 40px;
+}
+.mainText{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #354657;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.quotes{
+    margin-top: 40px;
+    border-left: 5px solid #946FD3;
+    padding-left: 23px;
+    margin-bottom: 40px;
+}
+.imgQuotes{
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+.socMedia{
+    padding-top: 20px;
+
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #354657;
+}
+.socMediaImg{
+    padding-top: 5px;
+}
+footer{
+    margin-top: 100px;
+    border-top: 1px solid #E2E2E2;
+}
+.footer{
+    height: 98px;
+    width: 1288px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.leftLogoBottom{
+    margin-top: 20px;
+}
+
+.ulFooter{
+    display: flex;
+    list-style-type: none;
+    margin-top: 39px;
+    margin-right: 175px;
+
+}
+ul.ulFooter>li{
+
+}
+ul.ulFooter>li:first-child{
+    margin-right: 40px;
+}
+.bottomSocMedia{
+    margin-top: 35px;
+    margin-left: 47px;
+}
+.bottomSocMediaItems{
+    margin-right: 17px;
+}
+
+.dotEra{
+    margin-top: 26px;
+}
+

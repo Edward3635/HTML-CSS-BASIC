@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Lesson 7</title>
+</head>
+<body>
+    <header>
+        <div class="headerFlex">
+            <a href="#"><img src="img/logoTop.svg" alt="logo"></a>
+            <div class="headerNav">
+                <ul>
+                    <li><img src="img/home1.svg" alt="home" class="home"></li>
+                    <li><img src="img/ArrowLeft.svg" alt="ArrowLeft"></li>
+                    <li><span class="mySpan"> Страница 1-го уровня </span></li>
+                    <li><img src="img/ArrowLeft.svg" alt="ArrowLeft"></li>
+                    <li>Страница 2-го уровня</li>
+                </ul>
+            </div>
+            <ul class="ulHeader">
+                <li class="liHeader"><a href="#">Каталог </a></li>
+                <li class="liHeader"><a href="#">Обучение</a></li>
+                <li class="liHeader"><a href="#">Партнёрам</a></li>
+                <li class="liHeader"><a href="#">Акции</a></li>
+            </ul>
+            <div class="topLeftMenu">
+                <a href="#"> <img src="img/loup.svg" alt="loup"> </a>
+                <a href="#"> <img src="img/user.svg" alt="user" class="topLeftMenuItem"> </a>
+                <a href="#"> <img src="img/shopping_bar.svg" alt="shopping Bar" class="topLeftMenuItem"> </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="textOrder">Оформление заказа</div>
+            <form class="form">
+                <div class="leftPart">
+                    <div class="signInOrSignUp">
+                        <div class="signInOrSignUp2">
+                            <h3>Войти или зарегистрироваться</h3>
+                            <input type="radio" name="signInOrSignUp" id="signIn"  value="Войти"/>
+                            <label for="signIn"></label>
+                            <label for="signIn" class="labelMargin">Войти</label>
+                            <input type="radio" name="signInOrSignUp" checked="checked" id="signUp" value="Зарегистрироваться"/>
+                            <label  for="signUp"></label>
+                            <label  for="signUp">Зарегистрироваться</label>
+                        </div>
+                    </div>
+                    <div class="personalData">
+                        <div class="personalData2">
+
+                            <h3 class="h3">Личные данные</h3>
+
+                            <label for="1">Ваше имя</label>
+                            <input type="text" id="1" name="name" class="myInput" placeholder="Ваше имя"/>
+                            <label for="2">Ваше фамилия</label>
+                            <input type="text" id="2"  name="surname" class="myInput" placeholder="Ваше фамилия"/>
+                            <label for="3">Электронный адрес</label>
+                            <input type="text" id="3" name="email" class="myInput" placeholder="Электронный адрес"/>
+                            <label for="4">Мобильный номер</label>
+                            <input type="text" id="4" name="phone1" class="myInput" placeholder="Мобильный номер"/>
+                            <label for="5">Дополнительный контакт</label>
+                            <input type="text" id="5" name="phone2" class="myInput" placeholder="Мобильный номер"/>
+
+                            <h3 class="h3Class">Данные о доставке</h3>
+
+                            <label for="6">Страна</label>
+                            <input type="text" id="6" name="country" class="myInput" placeholder="Страна"/>
+                            <label for="7">Город</label>
+                            <input type="text" id="7" name="city" class="myInput" placeholder="Город"/>
+                            <label for="8">Индекс</label>
+                            <input type="text" id="8" name="index" placeholder="Индекс"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightPart">
+                    <div class="wayToDelivery">
+                        <div class="wayToDelivery2">
+
+                            <h3>Способ доставки</h3>
+
+                            <input type="radio" name="wayToDelivery" id="wayToDelivery1"/>
+                            <label for="wayToDelivery1"></label>
+                            <label for="wayToDelivery1" class="labelMargin">Способ доставки</label>
+                            <input type="radio" name="wayToDelivery" id="wayToDelivery2"/>
+                            <label for="wayToDelivery2"></label>
+                            <label for="wayToDelivery2" class="labelMargin">Способ доставки</label>
+                            <input type="radio" name="wayToDelivery" id="wayToDelivery3"/>
+                            <label for="wayToDelivery3"></label>
+                            <label for="wayToDelivery3">Способ доставки</label>
+                        </div>
+                    </div>
+                    <div class="wayToPay">
+                        <div class="wayToPay2">
+
+                            <h3>Способ оплаты</h3>
+
+                            <input type="radio" name="wayToPay" id="wayToPay1"/>
+                            <label for="wayToPay1"></label>
+                            <label for="wayToPay1" class="labelMargin">Способ оплаты</label>
+                            <input type="radio" name="wayToPay" id="wayToPay2"/>
+                            <label for="wayToPay2"></label>
+                            <label for="wayToPay2" class="labelMargin">Способ оплаты</label>
+                            <input type="radio" name="wayToPay" id="wayToPay3"/>
+                            <label for="wayToPay3"></label>
+                            <label for="wayToPay3">Способ оплаты</label>
+                        </div>
+                    </div>
+                    <div>
+                        <table>
+                            <caption>Ваша корзина</caption>
+                            <thead>
+                            <tr>
+                                <th>Фото</th>
+                                <th>Товар</th>
+                                <th>Количество</th>
+                                <th><span class="mySpan2">Цена</span></th>
+                                <th>Итого</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><img src="img/tablePhoto.png" alt="photo"></td>
+                                <td>Название товара</td>
+                                <td>
+                                <img src="img/tableIcon1.png" alt="tableIcon1">
+                                    <img src="img/tableIcon2.png" alt="tableIcon2">
+                                    <img src="img/tableIcon3.png" alt="tableIcon3">
+                                </td>
+                                <td><span class="mySpan2">10 23, 58 UAH </span> </td>
+                                <td>100 023, 58 UAH</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>СТОИМОСТЬ ТОВАРА:</th>
+                                <td>100 523, 58 UAH</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>ДОСТАВКА:</th>
+                                <td>100 UAH</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>ИТОГО:</th>
+                                <td>100 623, 58 UAH</td>
+                            </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="comment">
+                        <div class="comment2">
+                            <h3 class="h3">Способ оплаты</h3>
+                            <label for="comments">Дополнительные комментарии</label>
+                            <textarea name="comments" id="comments" placeholder="Дополнителные комментарии к заказу"></textarea>
+                            <br>
+                            <input type="checkbox" name="checkbox" id="cb"/>
+                            <label for="cb"></label>
+                            <label for="cb">Согласие на обработку личных данных</label>
+                            <div class="myButton"><a href="#">Перейти к оплате</a></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="leftLogoBottom"><a href="#" ><img src="img/logoTop.svg" alt="logo"></a></div>
+            <ul class="ulFooter">
+                <li> <a href="#">Наша команда</a> </li>
+                <li><a href="#">Контакты</a> </li>
+            </ul>
+            <div class="bottomSocMedia">
+                <a href="#" class="bottomSocMediaItems"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="#" class="bottomSocMediaItems"><img src="img/instagram.svg" alt="inst"></a>
+                <a href="#" class="bottomSocMediaItems"><img src="img/youtube.svg" alt="youtube"></a>
+                <a href="#" class="bottomSocMediaItems"><img src="img/linkedin.svg" alt="linkedin"></a>
+                <a href="#"><img src="img/pinterest.svg" alt="pinterest"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

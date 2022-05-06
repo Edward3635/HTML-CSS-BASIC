@@ -1,0 +1,366 @@
+body{
+    background-color: #E5E5E5;
+}
+header>a{
+    margin-top: 11px;
+    margin-left: 316px;
+}
+
+.ulHeader{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 432px;
+    height: 19px;
+    margin-left: 90px;
+    margin-top: 31px;
+}
+.headerNav{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    position: absolute;
+    margin-top: 85px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    padding-right: 10px;
+}
+.mySpan{
+    text-decoration: underline;
+}
+
+li>a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #354657;
+}
+
+header{
+    background-color: #F8F4FC;
+}
+.headerFlex{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 118px;
+    max-width: 1288px;
+}
+
+.topLeftMenu{
+    margin-top: 29px;
+
+}
+
+.topLeftMenuItem{
+    padding-left: 34px;
+}
+
+main{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 1288px;
+}
+
+.textOrder{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #354657;
+    border-bottom: 2px solid #946FD3;
+    height: 52px;
+}
+
+.form{
+    display: flex;
+}
+
+.signInOrSignUp{
+    width: 384px;
+    height: 113px;
+    margin-top: 40px;
+    background-color: #F0F2F5;
+}
+
+.signInOrSignUp2{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+input#signIn, input#signUp, input#wayToDelivery1,input#wayToDelivery2,input#wayToDelivery3,input#wayToPay1,
+input#wayToPay2,input#wayToPay3
+{
+    display: none;
+}
+
+input#signIn + label, input#signUp + label, input#wayToDelivery1 + label,input#wayToDelivery2 + label,
+input#wayToDelivery3 + label, input#wayToPay1 + label, input#wayToPay2 + label,input#wayToPay3 + label {
+    content: "";
+    position: relative;
+    width: 17px;
+    height: 17px;
+    border-radius: 60%  ;
+    display: inline-block;
+    border: 2px solid #946FD3;
+    margin-top: 1px;
+}
+
+label+label{
+    position: relative;
+    bottom: 5px;
+}
+
+input#signIn:checked + label:after, input#signUp:checked + label:after,input#wayToDelivery1:checked + label:after,
+input#wayToDelivery2:checked + label:after, input#wayToDelivery3:checked + label:after,
+input#wayToPay1:checked + label:after, input#wayToPay2:checked + label:after,input#wayToPay3:checked + label:after{
+    content: " ";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 60%;
+    display: inline-block;
+    left: 17%;
+    top: 20%;
+    background-color: #946FD3;
+}
+
+.labelMargin{
+    margin-right: 20px;
+}
+
+.h3{
+    padding-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.h3Class{
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+label{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.personalData{
+    display: inline-block;
+    margin-top: 30px;
+    width: 384px;
+    height: 854px;
+    background-color: #F0F2F5;
+}
+
+.personalData2{
+    padding-left: 20px;
+
+}
+
+div.personalData2>input{
+    width: 336px;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #B6B6B6;
+}
+
+div.personalData2>input.myInput{
+    margin-bottom: 20px;
+}
+
+
+.rightPart{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.wayToDelivery,.wayToPay{
+    width: 874px;
+    height: 113px;
+    background-color: #F0F2F5;
+}
+
+.wayToDelivery2,.wayToPay2,.comment2{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.wayToPay{
+    margin-top: 30px;
+}
+caption{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #354657;
+    text-align: left;
+    margin-bottom: 15px;
+}
+table{
+    width: 874px;
+    margin-top: 30px;
+    background-color: white;
+    border-collapse: collapse;
+}
+thead>tr{
+    height: 41px;
+}
+tbody>tr,tfoot td{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #354657;
+    height: 58px;
+}
+thead>tr>th, tfoot>tr th{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #354657;
+}
+th,td{
+    vertical-align: middle;
+    text-align: left;
+    width: 175px;
+    padding-left: 20px;
+}
+.mySpan2{
+    margin-left: 40px;
+}
+thead{
+    background-color: #F0F2F5;
+}
+tbody>tr td{
+    padding-bottom: 19px;
+    padding-top: 6px;
+}
+tfoot>tr>th{
+    text-align: right;
+}
+
+
+textarea{
+    width: 834px;
+    height: 70px;
+    resize: none;
+}
+input#cb {
+    display: none;
+}
+
+input#cb + label {
+    height: 17px;
+    width: 17px;
+    border: 1px solid #946FD3;
+    display: inline-block;
+    position: relative;
+    background-color:#FFF;
+    border-radius:2px;
+}
+input#cb:checked + label:before {
+    content: '\2713';
+    position: absolute;
+    font-size:19px;
+    color:white;
+    border-color: #946FD3;
+}
+input#cb:checked + label{
+    background-color: #946FD3;
+}
+.comment{
+    width: 874px;
+    height: 348px;
+    margin-top: 30px;
+    background-color: #F0F2F5;
+}
+.myButton{
+    width: 206px;
+    height: 54px;
+    border-radius: 50px;
+    background: #946FD3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 628px;
+    margin-top: 29px;
+
+}
+a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+
+
+footer{
+    margin-top: 100px;
+    border-top: 1px solid #E2E2E2;
+}
+.footer{
+    height: 98px;
+    width: 1288px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.leftLogoBottom{
+    margin-top: 20px;
+}
+
+.ulFooter{
+    display: flex;
+    list-style-type: none;
+    margin-top: 39px;
+    margin-right: 175px;
+
+}
+ul.ulFooter>li{
+
+}
+ul.ulFooter>li:first-child{
+    margin-right: 40px;
+}
+.bottomSocMedia{
+    margin-top: 35px;
+    margin-left: 47px;
+}
+.bottomSocMediaItems{
+    margin-right: 17px;
+}
