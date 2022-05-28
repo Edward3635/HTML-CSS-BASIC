@@ -134,8 +134,6 @@ input#restaurantsAndFood:focus{
 input#restaurantsAndFood:focus::placeholder{
     color: #fff;
 }
-.section__grid__restaurants{}
-.section__banner{}
 
 input#restaurantsAndFood::placeholder{
     padding-left: 45px;
